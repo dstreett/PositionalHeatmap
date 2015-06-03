@@ -19,7 +19,7 @@ With sam files
 ./a.out <(cat *.sam | grep -v ^@ | awk '{print "@"$1"\n"$10"\n+\n"$11}') > test.sq
 ```
 
-As of right now you can take this test.sq.
+As of right now you can take this test.sq. 1101 can be replaced with whatever tile you are interested in.
 ```bash
 Rscript Heatmap_quality.R test.sq Title_of_Graph 1101
 ```
