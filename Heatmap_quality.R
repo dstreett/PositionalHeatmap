@@ -4,10 +4,10 @@ heat_map <- function(filename, title, tile) {
   foo <- read.table(filename, sep = "\t", header = T)
 
   #CHANGE FOR LANE NUMBER
-  foo <- foo[foo$V1 == 1,]
+  foo <- foo[foo$lane == 1,]
 
   #Change for tile number
-  foo <- foo[foo$V2 == tile,]
+  foo <- foo[foo$tile == tile,]
 
   
   #make sure you install MBA library
