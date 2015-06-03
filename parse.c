@@ -55,7 +55,7 @@ void parseTile(char line[], int nbytes) {
 		if (line[i] == ':') {
 			count++;
 			line[i] = '\t';
-		} else if (count == 3) {
+		} else if (count == 1) {
 			location = i;
 			count++;
 		} else if (line[i] == '#' || line[i] == ' ' || line[i] == ':' || line[i] == '/' || line[i] == '\n') {
