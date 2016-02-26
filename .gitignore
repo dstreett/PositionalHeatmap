@@ -1,0 +1,9 @@
+*.png
+*.fasta
+*.gz
+*.o
+*.swp
+*.jpeg
+*x*
+*.cmd
+*.pdf
